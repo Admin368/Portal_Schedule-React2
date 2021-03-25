@@ -23,3 +23,6 @@ expo start
 emulator -avd myAVDName
 
 ||xrof - platform target css
+
+|| FEATURES TO ADD
+- Auto Scroll Current Time and Data
