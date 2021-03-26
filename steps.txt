@@ -1,3 +1,6 @@
+// INSTALL EXPO-CLI GLOBALLY
+npm install --global expo-cli
+
 npx create-react-native-app
 npm install react-native-elements
 npm i --save react-native-icons
@@ -25,4 +28,5 @@ emulator -avd myAVDName
 ||xrof - platform target css
 
 || FEATURES TO ADD
+
 - Auto Scroll Current Time and Data
