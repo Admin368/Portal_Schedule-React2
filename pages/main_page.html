@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main_Page</title>
+</head>
+<body>
+    <div id="Wrapper">
+        <div id="Main_Title">SCHEDULE</div>
+        <div id="SideBar">
+            <div id="Icon1" class="SideBar_Icon"></div>
+            <div id="Icon2" class="SideBar_Icon"></div>
+        </div>
+        <div id="Display">
+            <div id="Display_Title">PLN_TIMELINE</div>
+            <div id="Display_Column_Wrapper">
+                <div id="Day_Model" class="Column">
+                    <div class="Column_Title">MODEL</div>
+                    <div class="Column_Cube"></div>
+                </div>
+                <div id="Day_Sunday" class="Column">
+                    <div class="Column_Title">SUNDAY</div>
+                    <div class="Column_Cube"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<style>
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    color: grey;
+    text-align: center;
+}
+#Wrapper{
+    width: 101vw;
+    height: 100vh;
+    background-color: #292F4C;
+    padding: -10px;
+    margin: -10px;
+    overflow: hidden;
+    position: relative;
+}
+#Main_Title{
+    width:100%;
+    height:60px;
+    border: 0px solid white;
+    padding-top: 10px;
+}
+#SideBar{
+    width:80px;
+    height:100%;
+    border: 0px solid white;
+    padding: 110px 0px 0px 10px;
+}
+.SideBar_Icon{
+    width: 64px;
+    height: 60px;
+    background-color:grey;
+    border-radius: 50%;
+    margin-bottom: 30px;
+    transition: 1s;
+}
+.SideBar_Icon:hover{
+    background-color: white;
+    transition: 1s;
+}
+#Display{
+    width: 100%;
+    height: 100%;
+    top: 61px;
+    left: 81px;
+    border-radius: 10px;
+    background-color:#ECF0F3;
+    border: 0px solid red;
+    border-radius: 30px;
+    position: absolute;
+}
+#Display_Title{
+    width: 100%;
+    height: 50px;
+    border: 0px solid black;
+    border-radius: 30px;
+    background-color:inherit;
+    text-align: left;
+    padding: 10px 0px 0px 90px;
+    /* position: absolute; */
+}
+#Display_Column_Wrapper{
+    width: 100%;
+    height: 100%;
+    top: 50px;
+    border: 1px solid rgba(180, 179, 179, 0.479);
+    /* border-radius: 10px; */
+    /* position: relative; */
+    display: flex;
+    flex-direction: left;
+}
+.Column{
+    width: 250px;
+    height: 100%;
+    border: px solid black;
+    border-radius:10px;
+    padding: 10px;
+    margin: 5px;
+    /* position: absolute; */
+    background-color: #F5F6F8;
+}
+.Column_Title{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    transition: 1s;
+}
+.Column_Title:hover{
+    /* font-size: 31px; */
+    color: green;
+    transition: 1s;
+}
+.Column_Cube{
+    width: 100%;
+    height: 50px;
+    background-color: #00C875;
+    opacity: 70%;
+    border-radius:30px;
+    transition: 1s;
+}
+.Column_Cube:hover{
+    background-color: #017545;
+    transition: 1s;
+}
+</style>
+</html>
