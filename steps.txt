@@ -1,6 +1,9 @@
 // INSTALL EXPO-CLI GLOBALLY
 npm install --global expo-cli
 
+//IF NEED REINSTALL DEPENDENCIES
+npm install
+
 npx create-react-native-app
 npm install react-native-elements
 npm i --save react-native-icons
